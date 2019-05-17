@@ -2,7 +2,7 @@
 layout: post
 title:  "GeoJSON, D3 en de draairichting van polygonen"
 date:   2019-05-16 
-categories: GIS D3.js
+categories: 
 ---
 Voor een blog post wil ik een simpel kaartje met Groninger gemeenten maken. Als oefening probeer ik dat met de [D3 JavaScript library](https://en.wikipedia.org/wiki/D3.js) te doen. Daarbij loop ik tegen een vreemd probleem aan.
 
