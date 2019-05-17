@@ -33,7 +33,7 @@ Bekijk [hier](https://geodata.nationaalgeoregister.nl/bestuurlijkegrenzen/wfs?se
 De [code](https://gist.github.com/FrieseWoudloper/0ff8a3e6824c427554ec603d34861a04#file-index-html) voor het visualiseren van de response in een kaart met D3 is eenvoudig. Het resultaat is echter niet wat ik had verwacht, namelijk [een zwart vierkant](https://bl.ocks.org/FrieseWoudloper/0ff8a3e6824c427554ec603d34861a04).
 
 # Gemeentegrenzen van ESRI
-ESRI stelt via de [Levende Atlas van Nederland](http://livingatlas-dcdev.opendata.arcgis.com/datasets/1b3840e5009742ae8b5698eafa438035_0) dezelfde gemeentegrenzen als PDOK beschikbaar via de ArcGIS REST API.
+ESRI stelt in de [Levende Atlas van Nederland](http://livingatlas-dcdev.opendata.arcgis.com/datasets/1b3840e5009742ae8b5698eafa438035_0) dezelfde gemeentegrenzen als PDOK beschikbaar. Ze worden ontsloten via de ArcGIS REST API.
 
 Service endpoint:
 ```
