@@ -137,9 +137,9 @@ Met de [aangepaste code](https://gist.github.com/FrieseWoudloper/db2719236454007
 
 # GeoJSON standaardspecificatie
 
-GeoJSON is niet ontstaan vanuit een organisatie als de Internet Engineering Task Force (IETF) of het Open Geospatial Consortium (OGC). Het was een initiatief van een aantal slimme mensen, op zoek naar een eenvoudig formaat voor het uitwisselen van geo-informatie. Dit leidde tot de GeoJSON 2008 specificatie, waarin geen afspraken werden opgenomen over de draairichting van polygonen.
+GeoJSON is niet ontstaan vanuit een organisatie als de Internet Engineering Task Force (IETF) of het Open Geospatial Consortium (OGC). Het is een initiatief van een aantal slimme mensen, op zoek naar een eenvoudig formaat voor het uitwisselen van geo-informatie. Dit leidde tot de GeoJSON 2008 specificatie, waarin geen afspraken werden opgenomen over de draairichting van polygonen.
 
-Pas in 2016 heeft de IETF de standaardspecificatie voor het GeoJSON formaat vastgelegd in [RFC 7946](https://tools.ietf.org/html/rfc7946). Daarin worden wél eisen worden gesteld aan de draairichting:
+Pas in 2016 heeft de IETF de standaardspecificatie voor het GeoJSON formaat vastgelegd in [RFC 7946](https://tools.ietf.org/html/rfc7946). Daarin worden wél eisen gesteld aan de draairichting:
 
 >A linear ring MUST follow the right-hand rule with respect to the area it bounds, i.e., exterior rings are counterclockwise, and holes are clockwise.
 
