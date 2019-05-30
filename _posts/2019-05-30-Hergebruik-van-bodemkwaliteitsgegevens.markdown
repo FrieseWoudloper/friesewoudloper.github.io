@@ -4,7 +4,7 @@ title:  "Hergebruik van bodemkwaliteitsgegevens"
 date:   2019-05-30
 categories: 
 ---
-Follow The Money (FTM) heeft dit voorjaar een nieuw dossier geopend: Gore Grond in je Gemeente. Op 11&nbsp;april deden ze een oproep: [Bodemvervuiling in jouw gemeente? Zet het op de kaart](https://www.ftm.nl/artikelen/kaart-gore-grond?utm_medium=social&utm_campaign=sharebuttonleden). Volgens FTM zijn overheden niet altijd even transparant over bodemverontreiniging. Informatie is moeilijk te vinden en lastig te interpreteren. Dat geldt met name voor de spoedlocaties. Dat zijn plaatsen waar de vervuiling zo erg is, dat er direct maatregelen genomen moeten worden.
+Follow The Money (FTM) heeft dit voorjaar een nieuw dossier geopend: Gore Grond in je Gemeente. Op 11&nbsp;april deed dit platform voor onderzoeksjournalistiek een oproep: [Bodemvervuiling in jouw gemeente? Zet het op de kaart](https://www.ftm.nl/artikelen/kaart-gore-grond?utm_medium=social&utm_campaign=sharebuttonleden). Volgens FTM zijn overheden niet altijd even transparant over bodemverontreiniging. Informatie is moeilijk te vinden en lastig te interpreteren. Dat geldt met name voor de spoedlocaties. Dat zijn plaatsen waar de vervuiling zo erg is, dat er direct maatregelen genomen moeten worden.
 
 De overheid stelt informatie over de bodemkwaliteit beschikbaar via het [Bodemloket](https://www.bodemloket.nl/kaart). Na het lezen van de oproep vroeg ik me af of de gegevens in het Bodemloket geschikt zijn voor hergebruik door FTM. Ik ging op onderzoek uit.
 
