@@ -33,7 +33,7 @@ Via deze mappenstructuur kun je bij de REST API van het Bodemloket:
 </code>
 
 Met de REST API kun je vier datasets (_layers_) opvragen. `WBB_punten` en `WBB_locaties` bevatten respectievelijk punten en vlakken van Wet bodembescherming (WBB)
-locaties. Het volgnummer van de layer is belangrijk om het endpoint van een request te bepalen. WBB_locaties is bijvoorbeeld de tweede layer en heeft volgnummer 1.
+locaties. Het volgnummer van de layer is belangrijk om het endpoint voor een request te bepalen. `WBB_locaties` is bijvoorbeeld de tweede layer en heeft volgnummer 1.
 
 Het is nu relatief eenvoudig om locaties als GeoJSON bestand op te vragen:
 
