@@ -51,7 +51,7 @@ De eerste optie is in dit geval ongeschikt. Alleen `WBB_DOSSIER_DBK` lijkt in aa
 
 Bij de tweede optie verdeel je het interessegebied - bijvoorbeeld een provincie of heel Nederland - in een grid. Per tegel binnen het grid doe je een request. Het probleem is dat je de afmetingen van een tegel zo moet kiezen, dat er niet meer dan 1.000 locaties binnen een tegel liggen.
 
-Zo langzamerhand wordt het best ingewikkeld! Daarom heb ik in [FME Desktop](https://www.safe.com/fme/fme-desktop/) een script gemaakt voor het genereren van de requests en samenvoegen van de responses. Het script is te [downloaden](https://github.com/FrieseWoudloper/FME_workspaces/blob/master/bodemloket) van GitHub.
+Zo langzamerhand wordt het best ingewikkeld! Daarom heb ik in [FME Desktop](https://www.safe.com/fme/fme-desktop/) een script gemaakt voor het genereren van de requests en samenvoegen van de responses. Het script is te [downloaden](https://github.com/FrieseWoudloper/FME_workspaces/blob/master/bodemloket) van GitHub. Ik heb het -vanwege de grote hoeveelheid data- alleen nog maar getest per provincie, nog niet voor heel Nederland.
 
 Uit de gegevens die de REST API retourneert, kun je voor iedere locatie ook de URL van het rapport met de voortgang van het bodemonderzoek afleiden. In dit rapport staat méér informatie dan in de API response, bijvoorbeeld de locatienaam, onderzoeksrapporten en besluiten. Helaas is deze informatie niet direct op te vragen bij de API in een gestructureerd formaat. Je moet de gegevens zelf scrapen als je ze voor een analyse wilt gebruiken.
 
