@@ -59,7 +59,7 @@ Uit de gegevens die de REST API retourneert, kun je voor iedere locatie ook de h
 https://www.bodemloket.nl/bodemloket/tools/report/guid/[NEN3610_ID_SOIL_MANAGEMENT]/[LOCATIECODE_BEVOEGD_GEZAG]/SIKB_12
 </code>
 
-Tussen de blokhaken komen de waarden van de gelijknamige attributen te staan. Dit is een [voorbeeld](https://www.bodemloket.nl/bodemloket/tools/report/guid/3f5be5f4-4874-41ac-b8bb-4007612a6aa6/FR008800079/SIKB_12) van een geldige hyperlink. In het voortgangsrapport staat méér informatie dan in de API response, bijvoorbeeld de locatienaam, onderzoeksrapporten en besluiten. Helaas is deze informatie niet rechtstreeks via de API op te vragen in een gestructureerd formaat. Je moet de gegevens zelf scrapen als je ze voor een analyse wilt gebruiken.
+Tussen de blokhaken komen de waarden van de gelijknamige attributen te staan ([voorbeeld](https://www.bodemloket.nl/bodemloket/tools/report/guid/3f5be5f4-4874-41ac-b8bb-4007612a6aa6/FR008800079/SIKB_12)). In het voortgangsrapport staat méér informatie dan in de API response, bijvoorbeeld de locatienaam, onderzoeksrapporten en besluiten. Helaas is deze informatie niet rechtstreeks via de API op te vragen in een gestructureerd formaat. Je moet de gegevens zelf scrapen als je ze voor een analyse wilt gebruiken.
 
 De conclusie is dat FTM gelijk heeft: het is inderdaad niet  makkelijk is om de ruwe bodemkwaliteitsgegevens op te vragen, want: 
 * de ArcGIS REST API is niet opgenomen in het Nationaal Georegister en daardoor moeilijk vindbaar,
