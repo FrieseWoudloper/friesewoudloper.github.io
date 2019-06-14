@@ -47,11 +47,14 @@ Helaas is response paging uitgezet in de configuratie van de service. Een altern
 * in de `where` query parameter filteren op een attribuut dat een uniek identificatienummer bevat of
 * met de query parameters `geometryType`, `inSR`, `geometry` en `spatialRel` filteren op gebied. 
 
-De eerste optie is in dit geval ongeschikt. Alleen `WBB_DOSSIER_DBK` lijkt in aanmerking te komen als uniek identificatienummer. De [minimum waarde is 17892511](https://www.gdngeoservices.nl/arcgis/rest/services/blk/lks_blk_rd/MapServer/1/query?where=1=1&outFields=WBB_DOSSIER_DBK&orderByFields=WBB_DOSSIER_DBK&returnGeometry=false&f=json) en de [maximum waarde 118107966](https://www.gdngeoservices.nl/arcgis/rest/services/blk/lks_blk_rd/MapServer/1/query?where=1=1&outFields=WBB_DOSSIER_DBK&orderByFields=WBB_DOSSIER_DBK+DESC&returnGeometry=false&f=json). Dat betekent dat er meer dan 100.000 requests nodig zijn om alle locaties op te vragen! Bovendien krijg ik bij zo'n request ook regelmatig foutcode 400 (_Unable to complete operation_).
+De eerste optie is in dit geval ongeschikt. Alleen `WBB_DOSSIER_DBK` lijkt in aanmerking te komen als uniek identificatienummer. Requests waarbij gefilterd wordt op dit attribuut retourneren regelmatig foutcode 400 (_Unable to complete operation_).
 
 Bij de tweede optie verdeel je het interessegebied - bijvoorbeeld een provincie of heel Nederland - in een grid. Per tegel binnen het grid doe je een request ([voorbeeld](https://www.gdngeoservices.nl/arcgis/rest/services/blk/lks_blk_rd/MapServer/1/query?where=1=1&outFields=*&f=geojson&geometryType=esriGeometryEnvelope&inSR=28992&geometry=258000,594000,259000,595000&spatialRel=esriSpatialRelIntersects)). Het probleem is dat je de afmetingen van een tegel zo moet kiezen, dat er niet meer dan 1.000 locaties binnen een tegel liggen. 
 
 Zo langzamerhand wordt het best ingewikkeld! Daarom heb ik in [FME Desktop](https://www.safe.com/fme/fme-desktop/) een script gemaakt voor het genereren van de requests en samenvoegen van de responses. Het script is te [downloaden](https://github.com/FrieseWoudloper/FME_workspaces/blob/master/bodemloket) van GitHub. Ik heb het -vanwege de grote hoeveelheid data- alleen nog maar getest per provincie, nog niet voor heel Nederland.
+
+<u>Aanvulling op 5 juni 2019:</u><br>
+Inmiddels weet ik dat het wél mogelijk is om alle gegevens op te vragen door te filteren op een uniek identificatienummer. Het is sneller een eenvoudiger dan de gegevens opvragen met een grid. In [deze post]({{site.url}}/2019/06/05/Hergebruik-van-bodemkwaliteitsgegevens-deel-2.html) leg ik uit hoe dat moet.
 
 Uit de gegevens die de REST API retourneert, kun je voor iedere locatie ook de hyperlink naar het rapport met de voortgang van het bodemonderzoek afleiden: 
 
