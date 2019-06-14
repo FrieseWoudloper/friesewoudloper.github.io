@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "API request afvangen met Postman"
+title:  "API requests afvangen met Postman"
 date:   2019-06-14
 categories: 
 ---
