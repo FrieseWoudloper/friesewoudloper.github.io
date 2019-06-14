@@ -18,4 +18,4 @@ Het IP adres van een computer met Windows als besturingssyteem vraag je snel op 
 
 Het configureren van een proxy server onder Windows 10 doe je via _Instellingen_ > _Netwerk en internet_ > _Proxy_. Scroll naar beneden naar _Handmatige proxyconfiguratie_. Zet _Proxyserver gebruiken_ aan. Vul het lokale IP adres in en het nummer van de poort waarop Postman luistert. Vergeet niet als laatste stap de configuratie op te slaan.
 
-Als je in FME Desktop nu de workspace uitvoert met de _ArcGIS Server Feature Service_ reader, verschijnen de requests in de _Historie_ tab in de sidebar.
+Als je in FME Desktop nu de workspace uitvoert met de _ArcGIS Server Feature Service_ reader, verschijnen de requests in Postman de _Historie_ tab in de sidebar.
