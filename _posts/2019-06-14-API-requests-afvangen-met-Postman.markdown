@@ -6,13 +6,11 @@ categories:
 ---
 
 
-Welke requests doet de _ArcGIS Server Feature Service_ reader van FME Desktop 'onder de motorkap'? Dat vroeg ik mij af naar aanleiding van deze [reactie van Arno van Anrooij]() op mijn blog post over het Bodemloket.
+Welke requests doet de _ArcGIS Server Feature Service_ reader van FME Desktop 'onder de motorkap'? Dat vroeg ik mij af naar aanleiding van deze [reactie van Arno van Anrooij](https://www.linkedin.com/feed/update/urn:li:activity:6539908644769718272/?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6539908644769718272%2C6541268229413830656%29) op mijn [blog post over het Bodemloket]([deze post]({{site.url}}/2019/06/05/Hergebruik-van-bodemkwaliteitsgegevens.html)).
 
-Het is heel eenvoudig om de requests af te vangen met Postman. In deze post leg ik vast hoe dat moet voor 'future reference'. Stap 1 is het configureren van Postman en stap 2 het instellen van de proxyserver op je lokale machine.
+Het is eenvoudig om de requests af te vangen met Postman. Deze post is eigenlijk een notitie voor mijzelf, voor 'future reference'. Om het werkend te krijgen moet je drie dingen doen: de configuratie van Postman aanpassen, je lokale IP adres opvragen en een proxyserver instellen.
 
-Postman is een handige tool voor het uitproberen en testen van REST API's. Ik gebruik de gratis versie die je [hier](https://www.getpostman.com/downloads/) kunt downloaden.
-
-Hoe je Postman moet configureren voor het afvangen van requests, is beschreven op [deze pagina](https://learning.getpostman.com/docs/postman/sending_api_requests/capturing_http_requests).
+Postman is een handige tool voor het uitproberen en testen van REST API's. Ik gebruik de gratis versie die je [hier](https://www.getpostman.com/downloads/) kunt downloaden. Hoe je Postman moet configureren voor het afvangen van requests, is gedocumenteerd op [deze pagina](https://learning.getpostman.com/docs/postman/sending_api_requests/capturing_http_requests).
 
 Het IP adres van een computer met Windows als besturingssyteem vraag je snel op met de [ipconfig command line utility](https://www.lifewire.com/ip-config-818377).
 
