@@ -12,7 +12,7 @@ Omdat ik bij de provincie vooral werk met geografische gegevens, wilde ik [GeoPa
 >GeoPandas is an open source project to make working with geospatial data in python easier.         
 >GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types.       
 
-Het installeren van GeoPandas op mijn Windows laptop bleek nog niet zo eenvoudig te zijn. GeoPandas is afhankelijk van een aantal andere packages waaronder [GDAL](https://pypi.org/project/GDAL/), [Fiona](https://pypi.org/project/Fiona/), [pyproj](https://pypi.org/project/pyproj/), [RTree](https://pypi.org/project/Rtree/) en [Shapely](https://pypi.org/project/Shapely/). Het installeren van deze _dependencies_ was de moeilijkheid.   
+Het installeren van GeoPandas op mijn Windows laptop bleek nog niet zo eenvoudig. GeoPandas is afhankelijk van een aantal andere packages waaronder [GDAL](https://pypi.org/project/GDAL/), [Fiona](https://pypi.org/project/Fiona/), [pyproj](https://pypi.org/project/pyproj/), [RTree](https://pypi.org/project/Rtree/) en [Shapely](https://pypi.org/project/Shapely/). Het installeren van deze _dependencies_ was de moeilijkheid.   
 
 Voor het installeren van GeoPandas volgde ik de stappen in het artikel [Using geopandas on Windows](https://geoffboeing.com/2014/09/using-geopandas-windows/) van Geoff Boeing.
 
