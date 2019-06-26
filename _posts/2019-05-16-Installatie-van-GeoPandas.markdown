@@ -7,7 +7,7 @@ categories:
 
 Deze week was ik bij [GoDataDriven](https://godatadriven.com/) in Amsterdam voor de cursus [Data Science met Python](https://training.xebia.com/data-science/data-science-with-python). In de cursus was er veel aandacht voor [Pandas](https://pandas.pydata.org/). Met Pandas wordt het manipuleren en analyseren van gegevens in Python een stuk eenvoudiger! 
 
-Ik nam mij voor om informatievragen in de komende periode zo veel mogelijk te beantwoorden met behulp van Python. Dan beklijft de cursus beter. Omdat ik bij de provincie vooral werk met geografische gegevens, wilde ik [GeoPandas](http://geopandas.org/) installeren. 
+Ik nam mij voor om informatievragen in de komende periode zo veel mogelijk te beantwoorden met behulp van Python. Dan beklijft de cursus beter. Omdat ik bij de provincie vooral werk met geografische gegevens, wil ik ook [GeoPandas](http://geopandas.org/) gaan gebruiken. 
 
 >GeoPandas is an open source project to make working with geospatial data in python easier.         
 >GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types.       
