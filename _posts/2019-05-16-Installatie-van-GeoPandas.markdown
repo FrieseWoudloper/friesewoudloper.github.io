@@ -48,6 +48,6 @@ Als ik in Jupyter dezelfde code uitvoer als eerder, krijg ik geen foutmelding me
 
 ![]({{site.url}}/assets/img/2019-06-26/img01.png) 
 
-Het versienummer van GDAL is nu 2.0.3. Blijkbaar installeert conda een oudere versie van GDAL. Misschien wass de hogere versie van GDAL in de [wheel van Gohlke](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal) het probleem? 
+Het versienummer van GDAL is nu 2.0.3. Blijkbaar installeert conda een oudere versie van GDAL. Misschien was de hogere versie van GDAL in de [wheel van Gohlke](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal) het probleem? 
 
 Hoe dan ook, ik kan aan de slag!
