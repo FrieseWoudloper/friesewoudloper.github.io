@@ -35,7 +35,7 @@ gdal.VersionInfo()
 ```
  
  GDAL (versie 3.0.0) was goed geïnstalleerd, Fiona en GeoPandas niet. Het importeren van Fiona gaf namelijk een foutmelding: _ImportError: DLL load failed: The specified module could not be found_.      
-Fiona is afhankelijk van GDAL, en GeoPandas weer van Fiona. Als Fiona niet goed geïnstalleerd is, werkt GeoPandas niet.
+Fiona is afhankelijk van GDAL, en GeoPandas weer van Fiona. Als Fiona niet goed geïnstalleerd is, werkt GeoPandas ook niet.
 
 Het is uiteindelijk tóch gelukt op GeoPandas te installeren. Dit zijn de stappen die daarvoor nodig waren:    
 1. Deïnstalleren van Anaconda.
