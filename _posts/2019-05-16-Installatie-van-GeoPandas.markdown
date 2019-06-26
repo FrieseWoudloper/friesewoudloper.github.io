@@ -14,9 +14,7 @@ Ik nam mij voor om informatievragen in de komende periode zo veel mogelijk te be
 
 Het installeren van GeoPandas op mijn Windows laptop bleek nog niet zo eenvoudig. GeoPandas is afhankelijk van een aantal andere packages waaronder [GDAL](https://pypi.org/project/GDAL/), [Fiona](https://pypi.org/project/Fiona/), [pyproj](https://pypi.org/project/pyproj/), [RTree](https://pypi.org/project/Rtree/) en [Shapely](https://pypi.org/project/Shapely/). Het installeren van deze _dependencies_ was de moeilijkheid.   
 
-Voor het installeren van GeoPandas volgde ik de stappen in het artikel [Using geopandas on Windows](https://geoffboeing.com/2014/09/using-geopandas-windows/) van Geoff Boeing.
-
-Ik gebruik de [Anaconda](https://www.anaconda.com/distribution/) Python distributie. Daarom probeerde ik eerst om GeoPandas te installeren met de conda package manager:
+Voor het installeren van GeoPandas volgde ik de stappen in het artikel [Using geopandas on Windows](https://geoffboeing.com/2014/09/using-geopandas-windows/) van Geoff Boeing. Ik gebruik de [Anaconda](https://www.anaconda.com/distribution/) Python distributie. Daarom probeerde ik eerst om GeoPandas te installeren met de conda package manager:
 
 ```
 conda install -c conda-forge geopandas
