@@ -44,7 +44,7 @@ Het is uiteindelijk tóch gelukt op GeoPandas te installeren. Dit zijn de stappe
 5. Uitvoeren van `conda update conda`.
 6. Uitvoeren van `conda install -c conda-forge geopandas`. 
 
-Als ik nu in Jupyter dezelfde code uitvoer als eerder, krijg ik geen foutmeldingen. 
+Als ik in Jupyter dezelfde code uitvoer als eerder, krijg ik geen foutmelding meer. 
 
 ![]({{site.url}}/assets/img/2019-06-26/img01.png) 
 
