@@ -53,9 +53,6 @@ Bij de tweede optie verdeel je het interessegebied - bijvoorbeeld een provincie 
 
 Zo langzamerhand wordt het best ingewikkeld! Daarom heb ik in [FME Desktop](https://www.safe.com/fme/fme-desktop/) een script gemaakt voor het genereren van de requests en samenvoegen van de responses. Het script is te [downloaden](https://github.com/FrieseWoudloper/FME_workspaces/blob/master/bodemloket) van GitHub. Ik heb het -vanwege de grote hoeveelheid data- alleen nog maar getest per provincie, nog niet voor heel Nederland.
 
-<u>Aanvulling op 5 juni 2019:</u><br>
-Inmiddels weet ik dat het wél mogelijk is om alle gegevens op te vragen door te filteren op een uniek identificatienummer. Het is sneller een eenvoudiger dan de gegevens opvragen met een grid. In [deze post]({{site.url}}/2019/06/05/Hergebruik-van-bodemkwaliteitsgegevens-deel-2.html) leg ik uit hoe dat moet.
-
 Uit de gegevens die de REST API retourneert, kun je voor iedere locatie ook de hyperlink naar het rapport met de voortgang van het bodemonderzoek afleiden: 
 
 <code>
@@ -73,6 +70,9 @@ De conclusie is dat FTM gelijk heeft: het is inderdaad niet  makkelijk is om de 
 Daarnaast zijn er nog semantische problemen. De betekenis van attributen is niet meteen duidelijk. En hoe filter je eigenlijk alle spoedlocaties uit het Bodemloket? 
 
 Kortom: er is nog veel ruimte voor verbetering als het gaat om het ontsluiten van bodemkwaliteitgegevens voor hergebruik door andere partijen dan de overheid.
+
+<u>Aanvulling op 5 juni 2019:</u><br>
+Inmiddels weet ik dat het wél mogelijk is om alle gegevens op te vragen door te filteren op een uniek identificatienummer. Dat is sneller een eenvoudiger dan de gegevens opvragen met een grid. In [deze post]({{site.url}}/2019/06/05/Hergebruik-van-bodemkwaliteitsgegevens-deel-2.html) leg ik uit hoe dat moet.
 
 
 

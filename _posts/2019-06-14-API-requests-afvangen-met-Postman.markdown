@@ -10,7 +10,7 @@ Welke requests doet de _ArcGIS Server Feature Service_ reader van FME Desktop 'o
 
 Het is eenvoudig om de requests af te vangen met Postman. Deze post is eigenlijk een notitie voor mijzelf, voor 'future reference'. Om het werkend te krijgen moet je drie dingen doen: de configuratie van Postman aanpassen, je lokale IP adres opvragen en een proxyserver instellen.
 
-Postman is een handige tool voor het uitproberen en testen van REST API's. Ik gebruik de gratis versie die je [hier](https://www.getpostman.com/downloads/) kunt downloaden. Hoe je Postman moet configureren voor het afvangen van requests, is gedocumenteerd op [deze pagina](https://learning.getpostman.com/docs/postman/sending_api_requests/capturing_http_requests).
+Postman is een handige tool voor het uitproberen en testen van REST API's. Ik gebruik de gratis versie die je [hier](https://www.getpostman.com/downloads/) kunt downloaden. Hoe je de instellingen van Postman moet aanpassen voor het afvangen van requests, is gedocumenteerd op [deze pagina](https://learning.getpostman.com/docs/postman/sending_api_requests/capturing_http_requests).
 
 Het IP adres van een computer met Windows als besturingssyteem vraag je snel op met de [ipconfig command line utility](https://www.lifewire.com/ip-config-818377).
 
