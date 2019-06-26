@@ -5,7 +5,7 @@ date:   2019-06-26
 categories: 
 ---
 
-Deze week was ik bij [GoDataDriven](https://godatadriven.com/) in Amsterdam voor de cursus [Data Science met Python](https://training.xebia.com/data-science/data-science-with-python). Met Pandas wordt het manipuleren en analyseren van gegevens in Python een stuk eenvoudiger! Ik nam mij voor om informatievragen in de komende periode zo veel mogelijk te beantwoorden met behulp van Python. Dan beklijft de cursus beter. 
+Deze week was ik bij [GoDataDriven](https://godatadriven.com/) in Amsterdam voor de cursus [Data Science met Python](https://training.xebia.com/data-science/data-science-with-python). In de cursus was er veel aandacht voor Pandas. Met Pandas wordt het manipuleren en analyseren van gegevens in Python een stuk eenvoudiger! Ik nam mij voor om informatievragen in de komende periode zo veel mogelijk te beantwoorden met behulp van Python. Dan beklijft de cursus beter. 
 
 Omdat ik bij de provincie vooral werk met geografische gegevens, wilde ik [GeoPandas](http://geopandas.org/) installeren. 
 
