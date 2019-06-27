@@ -23,7 +23,9 @@ conda install -c conda-forge geopandas
 Ik kreeg de volgende waarschuwing en besloot de installatie af te breken:    
 _WARNING: The conda.compat module is deprecated and will be removed in a future release._
 
-Daarna volgde ik de instructies onder _Installing geopandas and its dependencies manually_. Helaas had dit ook niet het gewenste resultaat. Dit testte ik in Jupyter met de volgende code:
+Daarna volgde ik de instructies onder _Installing geopandas and its dependencies manually_. Ik probeerde de installatie uit te voeren met behulp van de pip package manager en wheels. [Wheel](https://pythonwheels.com/) is een installatieformaat waarbij het niet meer nodig is om code lokaal te compileren. Dat is vooraf al gebeurd.
+
+Helaas had dit ook niet het gewenste resultaat. Dit testte ik in Jupyter met de volgende code:
 
 ```
 from osgeo import gdal, ogr, osr         
@@ -35,7 +37,7 @@ gdal.VersionInfo()
  GDAL (versie 3.0.0) was goed geïnstalleerd, Fiona en GeoPandas niet. Het importeren van Fiona gaf namelijk een foutmelding: _ImportError: DLL load failed: The specified module could not be found_.      
 Fiona is afhankelijk van GDAL, en GeoPandas weer van Fiona. Als Fiona niet goed geïnstalleerd is, werkt GeoPandas ook niet.
 
-Het is uiteindelijk tóch gelukt op GeoPandas te installeren. Dit zijn de stappen die daarvoor nodig waren:    
+Het is uiteindelijk toch gelukt om GeoPandas te installeren. Dit zijn de stappen die daarvoor nodig waren:    
 1. Deïnstalleren van Anaconda.
 2. Installeren van de nieuwste versie van Anaconda.
 4. Opstarten van Anaconda Powershell Prompt met beheerrechten (_Run as Administrator_).
@@ -46,6 +48,6 @@ Als ik in Jupyter dezelfde code uitvoer als eerder, krijg ik geen foutmelding me
 
 ![]({{site.url}}/assets/img/2019-06-26/img01.png) 
 
-Het versienummer van GDAL is nu 2.0.3. Blijkbaar installeert conda een oudere versie van GDAL. Misschien was de hogere versie van GDAL in de [wheel van Gohlke](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal) het probleem? 
+Het versienummer van GDAL is nu 2.0.3. Blijkbaar installeert conda een oudere versie van GDAL. Misschien was de hogere versie van GDAL in het [wheel van Christoph Gohlke](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal) het probleem? 
 
 Hoe dan ook, ik kan aan de slag!
