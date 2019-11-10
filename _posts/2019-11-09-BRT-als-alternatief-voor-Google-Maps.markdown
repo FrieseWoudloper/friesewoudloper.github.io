@@ -66,7 +66,7 @@ Je kunt kiezen welke kaartopmaak je wilt: standaard, grijs, pastel of water. Daa
 </script> 
 <br/>
 
-Naast de verschillende weergaven van de BRT-Achtergrondkaart is er ook nog de [OpenTopo](https://www.pdok.nl/introductie/-/article/opentopo) achtergrondkaart. OpenTopo is gebaseerd op meerdere gegevensbronnen van de overheid, waaronder de BRT, en maakt daarnaast gebruik van OpenStreetMap. De kaart is alleen beschikbaar in het Rijksdriehoekstelsel (EPSG:28992) en niet in de Web Mercator projectie (EPSG:3857). Hier moet je rekening mee houden in de code. 
+Naast de verschillende weergaven van de BRT-Achtergrondkaart is er ook nog de [OpenTopo](https://www.pdok.nl/introductie/-/article/opentopo) achtergrondkaart. OpenTopo is gebaseerd op meerdere gegevensbronnen van de overheid, waaronder de BRT, en maakt daarnaast gebruik van OpenStreetMap. De kaart is alleen beschikbaar in het [Rijksdriehoekstelsel](https://nl.wikipedia.org/wiki/Rijksdriehoeksco%C3%B6rdinaten) (EPSG:28992) en niet in de Web Mercator projectie (EPSG:3857). Hier moet je rekening mee houden in de code. 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.5.0/proj4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/1.0.2/proj4leaflet.js"></script>
