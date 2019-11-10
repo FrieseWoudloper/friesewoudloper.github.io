@@ -5,7 +5,7 @@ date:   2019-11-09
 categories: 
 ---
 
-Een mooie topografische kaart kan je website of app helemaal af maken. Voor het toevoegen van een kaart maken webontwikkelaars vaak gebruik van Google Maps. Dat is jammer. Er kleven namelijk nadelen aan Google Maps en er zijn goede alternatieven beschikbaar. 
+Een mooie topografische kaart maakt je website of app helemaal af. Voor het toevoegen van een kaart maken webontwikkelaars vaak gebruik van Google Maps. Dat is jammer. Er kleven namelijk nadelen aan Google Maps en er zijn goede alternatieven beschikbaar. 
 
 _Wat is het probleem met Google Maps?_      
 Het staat buiten kijf dat een ontwikkelaar met de Google Maps API snel en eenvoudig een kaart kan toevoegen aan zijn project. Maar daar staat tegenover dat het gebruik van de API niet altijd gratis is. Iedere maand krijg je 200 dollar aan API calls cadeau, maar daarna worden [kosten](https://cloud.google.com/maps-platform/pricing/sheet/) in rekening gebracht. Je bent verplicht om een creditcardnummer op te geven, ook al blijf je onder de limiet voor gratis gebruik.
