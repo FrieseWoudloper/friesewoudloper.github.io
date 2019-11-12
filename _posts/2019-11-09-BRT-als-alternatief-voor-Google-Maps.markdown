@@ -10,7 +10,7 @@ Een mooie topografische kaart maakt je website of app helemaal af. Voor het toev
 _Wat is het probleem met Google Maps?_      
 Het staat buiten kijf dat een ontwikkelaar met de Google Maps API snel en eenvoudig een kaart kan toevoegen aan zijn project. Maar daar staat tegenover dat het gebruik van de API niet altijd gratis is. Iedere maand krijg je 200 dollar aan API calls cadeau, maar daarna worden [kosten](https://cloud.google.com/maps-platform/pricing/sheet/) in rekening gebracht. Je bent verplicht om een creditcardnummer op te geven, ook al blijf je onder de limiet voor gratis gebruik.
 
-Een ander nadeel is dat Google bepaalt hoe de kaart er uit ziet. Google kiest bijvoorbeeld welke bedrijven worden weggelaten, of juist extra worden benadrukt.<sup>\*</sup> 
+Een ander nadeel is dat Google bepaalt hoe de kaart er uit ziet.<sup>\*</sup> Google kiest bijvoorbeeld welke bedrijven worden weggelaten, of juist extra worden benadrukt. 
 
 Voor overheidsorganisaties is er nóg een reden om geen Google Maps te gebruiken. Ze zijn namelijk wettelijk verplicht om bij de uitvoering van hun werkzaamheden de [Basisregistratie Topografie (BRT)]((https://zakelijk.kadaster.nl/brt)) te gebruiken. Dit is vastgelegd in de [Wet basisregistraties kadaster en topografie](https://wetten.overheid.nl/BWBR0021547/2010-01-01). De BRT is de officiële topografische kaart van de Nederlandse overheid. 
 
