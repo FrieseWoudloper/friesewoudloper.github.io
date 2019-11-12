@@ -98,7 +98,10 @@ Naast de verschillende weergaven van de BRT-Achtergrondkaart is er ook nog de [O
 </script> 
 <br/>
 
-De code van de voorbeelden in deze post kun je downloaden via deze [link](https://gist.github.com/FrieseWoudloper/b8f68be19299e19a3239ea2ee06c5a0f).
+De code van de voorbeelden in deze post kun je downloaden via deze [link](https://gist.github.com/FrieseWoudloper/b8f68be19299e19a3239ea2ee06c5a0f).      
 
 _Meer weten over Leaflet?_     
 Volg de [web map workshop for developers](https://github.com/NieneB/webmapping_for_developers) van Niene Boeijen. Vergeet ook vooral niet om op haar te [stemmen voor de Geo Prestige Award 2019](https://response.questback.com/isa/qbv.dll/ShowQuest?QuestID=5409765&sid=Lf7iwmHaek).
+
+_Niet zo handig met JavaScript?_
+[NL Maps](https://www.nlmaps.nl) maakt het nóg makkelijker om een kaart toe te voegen aan je website. Je beantwoordt een aantal vragen, waarna NL Maps de JavaScript code automatisch voor je genereert. Kopiëren, en klaar!
