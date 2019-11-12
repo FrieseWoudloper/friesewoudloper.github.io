@@ -103,5 +103,5 @@ De code van de voorbeelden in deze post kun je downloaden via deze [link](https:
 _Meer weten over Leaflet?_     
 Volg de [web map workshop for developers](https://github.com/NieneB/webmapping_for_developers) van Niene Boeijen. Vergeet ook vooral niet om op haar te [stemmen voor de Geo Prestige Award 2019](https://response.questback.com/isa/qbv.dll/ShowQuest?QuestID=5409765&sid=Lf7iwmHaek).
 
-_Niet zo handig met JavaScript?_
+_Niet zo handig met JavaScript?_     
 [NL Maps](https://www.nlmaps.nl) maakt het nóg makkelijker om een kaart toe te voegen aan je website. Je beantwoordt een aantal vragen, waarna NL Maps de JavaScript code automatisch voor je genereert. Kopiëren, en klaar!
