@@ -31,7 +31,7 @@ Bewaar het bestand. Het formaat is [GeoJSON](https://nl.wikipedia.org/wiki/GeoJS
 
 ![]({{site.url}}/assets/img/2019-12-01/img06.png) 
 
-Voeg in Power BI de Shape-kaart visual toe aan het rapport. Sleep de kolom met de arrondissementscodes naar _locatie_.
+Voeg in Power BI de Shape-kaart visual toe aan het rapport. Sleep de kolom met de arrondissementscodes naar _Locatie_.
 
 ![]({{site.url}}/assets/img/2019-12-01/img07.png) 
 
@@ -53,7 +53,7 @@ Een andere interessante optie is _Automatisch inzoomen_.
 
 Klaar!
 
-Als je veel gebieden hebt, bijvoorbeeld bij buurten, dan is de performance van de Shape-kaart erg slecht. In een volgende post ga ik onderzoeken of in dat geval de _Map Box Visual_ uitkomst biedt.
+Als je veel gebieden hebt, bijvoorbeeld bij buurten, dan is de performance van de Shape-kaart erg slecht. In een volgende post ga ik onderzoeken of in dat geval de _Mapbox Visual_ uitkomst biedt.
 
 
 [^1]:Als je een andere laag kies met veel objecten, kun je de gegevens beter niet in je browser, maar met [QGIS](https://www.qgis.org) downloaden. Anders loopt het downloaden vast.
