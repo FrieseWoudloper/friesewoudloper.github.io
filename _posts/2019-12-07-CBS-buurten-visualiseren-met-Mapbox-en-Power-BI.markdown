@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CBS buurten visualiseren met de Mapbox en Power BI"
+title: "CBS buurten visualiseren met Mapbox en Power BI"
 date:   2019-12-07
 categories: 
 ---
