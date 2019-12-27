@@ -11,7 +11,7 @@ De adressen van LocatieServer komen uit de Basisregistratie Adressen en Gebouwen
 
 Met LocatieServer kun je zoeken op adressen, ook als er geen exacte match is. Hartstikke slim! LocatieServer geeft je de mogelijkheid om adressen te standaardiseren op de BAG en te verrijken met andere gegevens. In [deze tutorial](https://github.com/FrieseWoudloper/web-api-workshop-gelderland/wiki/PDOK-LocatieServer) staat beschreven hoe LocatieServer precies werkt.
 
-In het voorbeeld maak ik in de eerste stap een kleine dataset aan met twaalf adressen van provinciehuizen. De adressen zijn onvolledig of de schrijfwijze is niet goed. Ik laat vervolgens zien hoe je met LocatieServer het volledige, officiële adres op kunt halen, en het adres ook nog eens kunt verrijken met buurt, wijk en coördinaten.
+In het voorbeeld maak ik in de eerste stap een kleine dataset aan met twaalf adressen van provinciehuizen. De adressen zijn onvolledig of niet helemaal juist. Ik laat vervolgens zien hoe je met LocatieServer het volledige, officiële adres op kunt halen, en het adres ook nog eens kunt verrijken met buurt, wijk en coördinaten.
 
 Check eerst de landinstellingen voor importeren via _Bestand_ &rarr; _Options and settings_ &rarr; _Options_ &rarr; _CURRENT FILE_ &rarr; _Regional Settings_. De juiste instelling is _English (United States)_ anders staat het decimaal scheidingsteken voor de coördinaten straks op de verkeerde plek.
 
