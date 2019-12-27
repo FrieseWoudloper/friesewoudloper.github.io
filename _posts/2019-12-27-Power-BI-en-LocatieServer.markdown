@@ -5,7 +5,7 @@ date:   2019-12-27
 categories: 
 ---
 
-In deze post laat ik zien hoe je adressen in Power BI kunt standaardiseren en verrijken met behulp van [LocatieServer](https://www.pdok.nl/restful-api/-/article/pdok-locatieserver) van [Publieke Dienstverlening Op de Kaart (PDOK)](https://www.pdok.nl). PDOK is een centrale voorziening voor het ontsluiten van geografische gegevens van de overheid. LocatieServer is een [API](https://nl.wikipedia.org/wiki/Application_programming_interface) op een deel van deze gegevens. Met LocatieServer kun je bijvoorbeeld gegevens opvragen van adressen, kadastrale percelen, wegen, buurten, wijken en hectometerpalen.
+In deze blog post laat ik zien hoe je adressen in Power BI kunt standaardiseren en verrijken met behulp van [LocatieServer](https://www.pdok.nl/restful-api/-/article/pdok-locatieserver) van [Publieke Dienstverlening Op de Kaart (PDOK)](https://www.pdok.nl). PDOK is een centrale voorziening voor het ontsluiten van geografische gegevens van de overheid. LocatieServer is een [API](https://nl.wikipedia.org/wiki/Application_programming_interface) op een deel van deze gegevens. Met LocatieServer kun je bijvoorbeeld gegevens opvragen van adressen, kadastrale percelen, wegen, buurten, wijken en hectometerpalen.
 
 De adressen van LocatieServer komen uit de Basisregistratie Adressen en Gebouwen (BAG). De BAG bevat de officiële schrijfwijze van adressen. Ieder adres heeft een uniek identificatienummer en coördinaten.
 
