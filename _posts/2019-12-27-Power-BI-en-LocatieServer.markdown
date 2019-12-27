@@ -21,7 +21,7 @@ Voer de adressen in.
 
 ![]({{site.url}}/assets/img/2019-12-27/img01.png) 
 
-Selecteer de tabel. Kies voor _Edit query_ en daarna voor _Advanced Editor_. Voeg extra stappen toe voor het versturen van een API request naar LocatieServer en het verwerken van de response. Gebruik deze [link](https://gist.githubusercontent.com/FrieseWoudloper/68de3449287c9ed43ac4f140d3991e4c/raw/9be21d051e2645ee581d1b9567410b2e49b3c4b5/provinciehuis.txt) om de code te kopiëren.
+Selecteer de tabel. Kies voor _Edit query_ en daarna voor _Advanced Editor_. Voeg extra stappen toe voor het versturen van een API request naar LocatieServer en het verwerken van de response. Gebruik [deze link](https://gist.githubusercontent.com/FrieseWoudloper/68de3449287c9ed43ac4f140d3991e4c/raw/9be21d051e2645ee581d1b9567410b2e49b3c4b5/provinciehuis.txt) om de code te kopiëren.
        
 ![]({{site.url}}/assets/img/2019-12-27/img02.png) 
 
