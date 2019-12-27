@@ -9,7 +9,7 @@ In deze blog post laat ik zien hoe je adressen in Power BI kunt standaardiseren 
 
 De adressen van LocatieServer komen uit de Basisregistratie Adressen en Gebouwen (BAG). De BAG bevat de officiële schrijfwijze van adressen. Ieder adres heeft een uniek identificatienummer en coördinaten. Handig voor verdere verwerking!
 
-Met LocatieServer kun je zoeken op adressen, ook als er geen exacte match is. Hartstikke handig! LocatieServer geeft je de mogelijkheid om adressen te standaardiseren op de BAG en te verrijken met andere gegevens. In [deze tutorial](https://github.com/FrieseWoudloper/web-api-workshop-gelderland/wiki/PDOK-LocatieServer) staat beschreven hoe LocatieServer precies werkt.
+Met LocatieServer kun je zoeken op adressen, ook als er geen exacte match is. Hartstikke slim! LocatieServer geeft je de mogelijkheid om adressen te standaardiseren op de BAG en te verrijken met andere gegevens. In [deze tutorial](https://github.com/FrieseWoudloper/web-api-workshop-gelderland/wiki/PDOK-LocatieServer) staat beschreven hoe LocatieServer precies werkt.
 
 In het voorbeeld maak ik in de eerste stap een kleine dataset aan met twaalf adressen van provinciehuizen. De adressen zijn onvolledig of de schrijfwijze is niet goed. Ik laat vervolgens zien hoe je met LocatieServer het volledige, officiële adres op kunt halen, en het adres ook nog eens kunt verrijken met buurt, wijk en coördinaten.
 
