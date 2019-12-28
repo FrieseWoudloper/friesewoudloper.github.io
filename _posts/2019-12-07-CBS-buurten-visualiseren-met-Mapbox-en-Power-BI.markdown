@@ -110,8 +110,8 @@ Ga naar het tabblad _Velden_ en sleep de kolom `bevolkingsdichtheid` naar _Toolt
 
 ![]({{site.url}}/assets/img/2019-12-07/img19.png) 
 
-Voilà!
+Voilà! 
 
 ![]({{site.url}}/assets/img/2019-12-07/img20.png) 
 
-
+Via [deze link](https://app.powerbi.com/view?r=eyJrIjoiMjhkNjdiYmMtMDNhYy00ODIyLTk2MzItNjVmYzBlY2ViNDE4IiwidCI6ImZkZjllNmE2LWY5NGYtNDE1Zi04NjIzLTk0YWNiYzU5OWU1NCIsImMiOjh9) kun je het resultaat bekijken. Vergeet niet dat je eerst in moet zoomen, voordat je iets te zien krijgt.
