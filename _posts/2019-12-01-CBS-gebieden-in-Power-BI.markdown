@@ -53,7 +53,7 @@ Een andere interessante optie is _Automatisch inzoomen_.
 
 Klaar!
 
-Het resultaat kun je bijvoorbeeld op Internet publiceren.
+Het resultaat kun je vanuit Power BI bijvoorbeeld op Internet publiceren, zodat iedereen er bij kan.
 
 <iframe width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiZjY3YmZlMTQtOGFjYy00YjEyLThlN2UtMDJlYjc2ZWMyNGMyIiwidCI6ImZkZjllNmE2LWY5NGYtNDE1Zi04NjIzLTk0YWNiYzU5OWU1NCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
 &nbsp;     
