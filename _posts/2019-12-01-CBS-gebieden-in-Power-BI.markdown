@@ -55,7 +55,7 @@ Klaar!
 
 Het resultaat kun je bijvoorbeeld op Internet publiceren.
 
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZjY3YmZlMTQtOGFjYy00YjEyLThlN2UtMDJlYjc2ZWMyNGMyIiwidCI6ImZkZjllNmE2LWY5NGYtNDE1Zi04NjIzLTk0YWNiYzU5OWU1NCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiZjY3YmZlMTQtOGFjYy00YjEyLThlN2UtMDJlYjc2ZWMyNGMyIiwidCI6ImZkZjllNmE2LWY5NGYtNDE1Zi04NjIzLTk0YWNiYzU5OWU1NCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
 
 Als je veel gebieden hebt, bijvoorbeeld bij buurten, dan is de performance van de Shape-kaart erg slecht. In een volgende post ga ik onderzoeken of in dat geval de _Mapbox Visual_ uitkomst biedt.
 
