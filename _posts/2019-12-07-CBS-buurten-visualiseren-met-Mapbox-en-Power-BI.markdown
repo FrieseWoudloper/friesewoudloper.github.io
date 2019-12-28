@@ -15,8 +15,10 @@ Voor het downloaden en converteren van de buurten gebruiken we [cURL](https://nl
 Open een opdrachtprompt en voer het volgende commando uit:
 
 `
-curl "https://geodata.nationaalgeoregister.nl/cbsgebiedsindelingen/wfs?request=GetFeature&service=WFS&version=1.1.0&typeName=cbsgebiedsindelingen:cbs_buurt_2019_gegeneraliseerd&outputFormat=application/json&srsName=EPSG:4326&propertyName=geom,statcode" -o E:\Temp\buurten.geojson
+curl "https://geodata.nationaalgeoregister.nl/cbsgebiedsindelingen/wfs?request=GetFeature&service=WFS&version=1.1.0&typeName=cbsgebiedsindelingen:cbs_buurt_2019_gegeneraliseerd&outputFormat=application/json&srsName=EPSG:4326&propertyName=geom,statcode" -o E:\\Temp\\buurten.geojson
 `
+
+Je kunt het resultaat ook via [deze link]({{site.url}}/assets/misc/2019-12-07/buurten.geojson) downloaden.
 
 Merk op dat de _base URL_ van het service request is overgenomen uit het Nationaal Georegister. Hetzelfde geldt voor de waarde van de query parameter _typeName_. Het outputbestand is in het GeoJSON formaat. Pas indien nodig het pad van de output directory aan. De geometrie is geconverteerd naar het [World Geodetic System 84 (EPSG:4326)](https://nl.wikipedia.org/wiki/WGS_84). Mapbox kan namelijk niet overweg met het het standaard coördinatenstelsel van de service. Dat is het [Rijksdriehoekstelsel, ofwel EPSG:28992](https://nl.wikipedia.org/wiki/Rijksdriehoeksco%C3%B6rdinaten).
 
