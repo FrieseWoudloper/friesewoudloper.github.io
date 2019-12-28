@@ -30,7 +30,7 @@ Ga naar de [Tilesets](https://studio.mapbox.com/tilesets/) pagina. Klik op _New 
 
 ![]({{site.url}}/assets/img/2019-12-07/img04.png) 
 
-Er is nu een nieuwe tileset toegevoegd met de buurten.
+Er is nu een nieuwe tileset toegevoegd met de buurten. Let op: Mapbox genereert de naam van de tileset automatisch, die van jou heeft een andere naam dan buurten-809yxk.
 
 ![]({{site.url}}/assets/img/2019-12-07/img05.png) 
 
