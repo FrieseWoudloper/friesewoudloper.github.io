@@ -5,14 +5,14 @@ date:   2019-12-29
 categories: 
 ---
 
-In vorige blog posts heb ik laten zien hoe je met de [Shape-kaart](http://www.friesewoudloper.nl/2019/12/01/CBS-gebieden-in-Power-BI.html) en [Mapbox visuals](http://www.friesewoudloper.nl/2019/12/07/CBS-buurten-visualiseren-met-Mapbox-en-Power-BI.html) een kaart kunt maken in Power BI. De functionaliteit van zo'n kaart is beperkt. Het is bijvoorbeeld niet mogelijk om meerdere thematische lagen toe te voegen die onafhankelijk van elkaar aan- of uitgezet kunnen worden. Het is ook niet mogelijk om de BRT Achtergrondkaart als topografische ondergrond te gebruiken. De [BRT Achtergrondkaart](https://www.pdok.nl/introductie/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-) is de officiële topografische kaart van de overheid. Meer weten over de BRT Achtergrondkaart? Lees dan [deze post](http://www.friesewoudloper.nl/2019/11/09/BRT-als-alternatief-voor-Google-Maps.html).
+In vorige blog posts heb ik laten zien hoe je met de [Shape-kaart](http://www.friesewoudloper.nl/2019/12/01/CBS-gebieden-in-Power-BI.html) en [Mapbox visuals](http://www.friesewoudloper.nl/2019/12/07/CBS-buurten-visualiseren-met-Mapbox-en-Power-BI.html) een kaart kunt maken in Power BI. De functionaliteit van zo'n kaart is beperkt. Het is bijvoorbeeld niet mogelijk om meerdere thematische lagen toe te voegen die je onafhankelijk van elkaar kunt aan- of uitzetten. Het is ook niet mogelijk om de BRT Achtergrondkaart als topografische ondergrond te gebruiken. De [BRT Achtergrondkaart](https://www.pdok.nl/introductie/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-) is de officiële topografische kaart van de overheid. Meer weten over de BRT Achtergrondkaart? Lees dan [deze post](http://www.friesewoudloper.nl/2019/11/09/BRT-als-alternatief-voor-Google-Maps.html).
 
 Er zijn open source projecten die deze functionaliteit wél bieden, bijvoorbeeld [Leaflet](http://leaflet.org/). Leaflet is een JavaScript library. Met deze library kunnen ontwikkelaars een kaart-viewer toevoegen aan een website of app. Maar daarvoor moet je wel kunnen programmeren in JavaScript. 
 
-R maakt het voor data-analisten een stuk makkelijker. Met het [leaflet package](https://cran.r-project.org/web/packages/leaflet/index.html) kun je vanuit R namelijk automatisch de benodigde JavaScript code genereren. Hoe dat moet, vertel ik je in deze blog post. Zet je schrap, want het is niet eenvoudig.
+R maakt het voor data-analisten een stuk makkelijker. Met het [leaflet package](https://cran.r-project.org/web/packages/leaflet/index.html) kun je vanuit R namelijk automatisch de benodigde JavaScript code automatisch genereren. Hoe dat moet, vertel ik je in deze blog post. Zet je schrap, want het is niet eenvoudig.
 
 ## Installeer R
-Zorg er voor dat je [R](https://www.r-project.org/) en eventueel ook [RStudio](https://rstudio.com/products/rstudio/) geïnstalleerd hebt. RStudio is een [IDE](https://nl.wikipedia.org/wiki/Integrated_development_environment) of ontwikkelomgeving voor R. Open de R console of RStudio en installeer de leaflet en jsonlite packages met het volgende commando: 
+Zorg er voor dat je [R](https://www.r-project.org/) en eventueel ook [RStudio](https://rstudio.com/products/rstudio/) geïnstalleerd hebt. RStudio is een [IDE](https://nl.wikipedia.org/wiki/Integrated_development_environment) of ontwikkelomgeving voor R. Open de R console of RStudio. Installeer leaflet en de andere R packages die nodig zijn met het volgende commando: 
 ```
 install.packages(c("leaflet", "jsonlite", "XML", "htmlwidgets"))  
 ```
