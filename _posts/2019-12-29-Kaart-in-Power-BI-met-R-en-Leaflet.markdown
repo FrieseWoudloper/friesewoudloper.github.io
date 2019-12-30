@@ -5,7 +5,7 @@ date:   2019-12-29
 categories: 
 ---
 
-In vorige blog posts heb ik laten zien hoe je met de [Shape-kaart](http://www.friesewoudloper.nl/2019/12/01/CBS-gebieden-in-Power-BI.html) en [Mapbox visuals](http://www.friesewoudloper.nl/2019/12/07/CBS-buurten-visualiseren-met-Mapbox-en-Power-BI.html) een kaart kunt maken in Power BI. De functionaliteit van zo'n kaart is beperkt. Het is bijvoorbeeld niet mogelijk om meerdere thematische lagen toe te voegen die onafhankelijk van elkaar aan- of uitgezet kunnen worden. Het is ook niet mogelijk om de BRT Achtergrondkaart als referentielaag te configuren. De [BRT Achtergrondkaart](https://www.pdok.nl/introductie/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-) is de officiële topografische kaart van de overheid. Meer weten over de BRT Achtergrondkaart? Lees dan [deze post](http://www.friesewoudloper.nl/2019/11/09/BRT-als-alternatief-voor-Google-Maps.html).
+In vorige blog posts heb ik laten zien hoe je met de [Shape-kaart](http://www.friesewoudloper.nl/2019/12/01/CBS-gebieden-in-Power-BI.html) en [Mapbox visuals](http://www.friesewoudloper.nl/2019/12/07/CBS-buurten-visualiseren-met-Mapbox-en-Power-BI.html) een kaart kunt maken in Power BI. De functionaliteit van zo'n kaart is beperkt. Het is bijvoorbeeld niet mogelijk om meerdere thematische lagen toe te voegen die onafhankelijk van elkaar aan- of uitgezet kunnen worden. Het is ook niet mogelijk om de BRT Achtergrondkaart als topografische ondergrond te gebruiken. De [BRT Achtergrondkaart](https://www.pdok.nl/introductie/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-) is de officiële topografische kaart van de overheid. Meer weten over de BRT Achtergrondkaart? Lees dan [deze post](http://www.friesewoudloper.nl/2019/11/09/BRT-als-alternatief-voor-Google-Maps.html).
 
 Er zijn open source projecten die deze functionaliteit wél bieden, bijvoorbeeld [Leaflet](http://leaflet.org/). Leaflet is een JavaScript library. Met deze library kunnen ontwikkelaars een kaart-viewer toevoegen aan een website of app. Maar daarvoor moet je wel kunnen programmeren in JavaScript. 
 
@@ -78,18 +78,18 @@ map <- leaflet(data = Values);
 map <- addTiles(map, 
                 urlTemplate = brtAchtergrondkaart, 
                 attribution = "Kaartgegevens &copy; Kadaster", 
-                options = tileOptions(minZoom = 6, maxZoom = 18));
-map <- addCircles(map, 
-                  lng = ~ longitude, 
-                  lat = ~ latitude, 
-                  popup = ~ paste("Locatie:", 
-                  locatie, "<br>", "Magnitude:", 
-                  magnitude));				
+                options = tileOptions(minZoom = 6, maxZoom = 18));		
 map <- addTopoJSON(map, 
                    topojson = read_json(veld), 
                    weight = 1, color = "grey", 
                    fillOpacity = 0.3, 
                    group = 'Groningen veld');
+map <- addCircles(map, 
+                  lng = ~ longitude, 
+                  lat = ~ latitude, 
+                  popup = ~ paste("Locatie:", 
+                  locatie, "<br>", "Magnitude:", 
+                  magnitude));	
 map <- addLayersControl(map, 
                         overlayGroups = c("Groningen veld"),
                         options = layersControlOptions(collapsed = FALSE));
@@ -161,7 +161,8 @@ De interactiviteit werkt ook maar één kant op. Het is niet mogelijk om een dat
 
 Het is ook niet gelukt om het rapport met de Leaflet kaart te delen via de [Power BI-service](https://app.powerbi.com).
 
-Kortom: Het lijkt een beter idee om een custom visual te ontwikkelen met de Leaflet JavaScript library, zonder tussenkomst van R. Daar zijn op GitHub en in de Marketplace ook wel voorbeelden van, bijvoorbeeld [Icon Map](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381497?tab=Overview), alleen bieden die niet dezelfde functionaliteit als die ik in deze post heb gedemonstreerd. 
+Kortom:      
+Met Leaflet kun je een rijke, interactieve kaart maken in Power BI. Het lijkt echter een beter idee om een custom visual te ontwikkelen die rechtstreeks gebruikt maakt van de Leaflet JavaScript library, zonder tussenkomst van R. Daar zijn op GitHub en in de Marketplace ook wel voorbeelden van, bijvoorbeeld [Icon Map](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381497?tab=Overview), alleen bieden die niet dezelfde functionaliteit als die ik in deze post heb gedemonstreerd. 
 
 ## Bronnen
 * [Documentation for creating visuals for Power BI](https://github.com/microsoft/PowerBI-visuals)
