@@ -30,13 +30,13 @@ Ga naar de [Tilesets](https://studio.mapbox.com/tilesets/) pagina. Klik op _New 
 
 ![]({{site.url}}/assets/img/2019-12-07/img04.png) 
 
-Er wordt nu een nieuwe tileset toegevoegd met de buurten. Dit kan wel een aantal minuten duren. Ik krijg ook niet altijd een mooie preview zoals in onderstaande schermafdruk. Soms zie ik alleen maar een zwart vlak, maar dan werken de tiles in Power BI wel.
+Er wordt nu een nieuwe tileset toegevoegd met de buurten. Dit kan wel een aantal minuten duren. 
 
 ![]({{site.url}}/assets/img/2019-12-07/img05.png) 
 
 Let op: Mapbox genereert de naam van de tileset automatisch, die van jou heeft een andere naam dan buurten-809yxk.
 
-Vraag detailinformatie op door op de naam van de nieuwe tileset te klikken.
+Vraag detailinformatie op door op de naam van de nieuwe tileset te klikken. In onderstaande schermafdruk zie je een preview van de tileset. Dat is niet altijd zo. Soms krijg je alleen maar een zwart vlak. Desondanks werkt de tileset wel in Power BI.
 
 ![]({{site.url}}/assets/img/2019-12-07/img06.png) 
 
