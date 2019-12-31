@@ -169,10 +169,11 @@ Kortom:
 Met Leaflet kun je een rijke, interactieve kaart maken in Power BI. Het lijkt echter een beter idee om een custom visual te ontwikkelen die rechtstreeks gebruikt maakt van de Leaflet JavaScript library, zonder tussenkomst van R. Daar zijn op GitHub en in de Marketplace ook wel voorbeelden van, bijvoorbeeld [Icon Map](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381497?tab=Overview), alleen bieden die niet dezelfde functionaliteit als die ik in deze post heb gedemonstreerd. 
 
 ## Bronnen
-* [Documentation for creating visuals for Power BI](https://github.com/microsoft/PowerBI-visuals)
-* [Tutorial: Developing a Power BI visual](https://docs.microsoft.com/en-us/power-bi/developer/visuals/custom-visual-develop-tutorial)
-* [Use R-powered Power BI visuals in Power BI](https://docs.microsoft.com/en-us/power-bi/desktop-r-powered-custom-visuals)
 * [How to generate custom visuals in Power BI using R](https://towardsdatascience.com/custom-html-visuals-in-power-bi-using-r-2b0494894ff)
+* [Documentation for creating visuals for Power BI](https://github.com/microsoft/PowerBI-visuals)
+* [Use R-powered Power BI visuals in Power BI](https://docs.microsoft.com/en-us/power-bi/desktop-r-powered-custom-visuals)
+* [Tutorial: Developing a Power BI visual](https://docs.microsoft.com/en-us/power-bi/developer/visuals/custom-visual-develop-tutorial)
+* [How to build a high performance Custom Visual](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/performance-tips/)
 * [Power BI Leaflet Custom Visual](https://github.com/avinmathew/power-bi-leaflet-custom-visual)
 * [Leaflet based visualization for PowerBI](https://github.com/woodbuffalo/powerbi-leaflet)
 
