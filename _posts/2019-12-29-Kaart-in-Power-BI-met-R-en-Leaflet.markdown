@@ -52,6 +52,10 @@ Open daarna het bestand `pbiviz.json`. Vul een waarde in voor `description`, `su
 
 ![]({{site.url}}/assets/img/2019-12-29/img06.png) 
 
+In de documentatie heb ik het nergens gelezen, maar ik ga er vanuit dat het bestand `dependencies.json` ook gewijzigd moet worden. Hierin staan volgens mij de R packages die nodig zijn. In het voorbeeld maken we geen gebruik van `ggplot2` en `plotly`, maar wel van `leaflet` en `jsonlite`. Pas het bestand hierop aan.
+
+![]({{site.url}}/assets/img/2019-12-29/img14.png) 
+
 Je vraagt je ondertussen misschien af waarom ik mijn eigen custom visual bouw en geen gebruik maak van de R-visual in het venster _Visualisatie_ (zie onderstaande schermafdruk). De reden is dat de laatste alleen overweg kan met statische afbeeldingen als output, en niet met HTML en JavaScript.
 
 ![]({{site.url}}/assets/img/2019-12-29/img04.png) 
@@ -166,7 +170,8 @@ Met Leaflet kun je een rijke, interactieve kaart maken in Power BI. Het lijkt ec
 
 ## Bronnen
 * [Documentation for creating visuals for Power BI](https://github.com/microsoft/PowerBI-visuals)
-* [Een Power BI visual ontwikkelen](https://docs.microsoft.com/nl-nl/power-bi/developer/visuals/custom-visual-develop-tutorial)
+* [Tutorial: Developing a Power BI visual](https://docs.microsoft.com/en-us/power-bi/developer/visuals/custom-visual-develop-tutorial)
+* [Use R-powered Power BI visuals in Power BI](https://docs.microsoft.com/en-us/power-bi/desktop-r-powered-custom-visuals)
 * [How to generate custom visuals in Power BI using R](https://towardsdatascience.com/custom-html-visuals-in-power-bi-using-r-2b0494894ff)
 * [Power BI Leaflet Custom Visual](https://github.com/avinmathew/power-bi-leaflet-custom-visual)
 * [Leaflet based visualization for PowerBI](https://github.com/woodbuffalo/powerbi-leaflet)
