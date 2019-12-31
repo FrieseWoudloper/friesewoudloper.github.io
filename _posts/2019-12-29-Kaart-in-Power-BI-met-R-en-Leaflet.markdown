@@ -163,7 +163,9 @@ Een ander probleem is dat iedere keer wanneer de gebruiker een andere dataselect
 
 De interactiviteit werkt ook maar één kant op. Het is niet mogelijk om een dataselectie te maken in de kaart die doorwerkt in het hele rapport. Wanneer je op een beving in de kaart klikt, verschijnt er een tooltip, maar de andere visuele elementen in het rapport reageren er niet op.
 
-Het is ook niet gelukt om het rapport met de Leaflet kaart te delen via de [Power BI-service](https://app.powerbi.com).
+Het is ook niet gelukt om het rapport met de Leaflet kaart te delen via de [Power BI-service](https://app.powerbi.com). Ik krijg een runtimefout. Het lijkt er op dat de Power BI-service niet kan verbinden met PDOK en/of GitHub voor het ophalen van respectievelijk de BRT Achtergrondkaart en het TopoJSON bestand met het Groningen veld.
+
+![]({{site.url}}/assets/img/2019-12-29/img15.png) 
 
 Kortom:      
 Met Leaflet kun je een rijke, interactieve kaart maken in Power BI. Het lijkt echter een beter idee om een custom visual te ontwikkelen die rechtstreeks gebruikt maakt van de Leaflet JavaScript library, zonder tussenkomst van R. Daar zijn op GitHub en in de Marketplace ook wel voorbeelden van, bijvoorbeeld [Icon Map](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381497?tab=Overview), alleen bieden die niet dezelfde functionaliteit als die ik in deze post heb gedemonstreerd. 
