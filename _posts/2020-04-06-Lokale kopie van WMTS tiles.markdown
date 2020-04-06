@@ -32,5 +32,5 @@ Na een herstart van MOBAC is _BRT standaard_ toegevoegd als formaat. Fluitje van
 
 Waar je wel op moet letten is de _fair use policy_ van PDOK. Het is niet netjes om tienduizenden requests af te vuren op de server. Beperk daarom het geselecteerde gebied en/of de zoomniveaus.
 
-Om de BRT Achtergrondkaart te gebruiken in een Shiny app, moet je de tiles naar de map www/map/tiles in de root van de Shiny projectmap verplaatsen. In [deze Github repository](https://github.com/FrieseWoudloper/demo_offline_tiles) vind je de code van mijn demo-app.
+Om de BRT Achtergrondkaart te gebruiken in een Shiny app, moet je de tiles naar de map _www/map/tiles_ in de root van de Shiny projectmap verplaatsen. In [deze Github repository](https://github.com/FrieseWoudloper/demo_offline_tiles) vind je de code van mijn demo-app.
 
