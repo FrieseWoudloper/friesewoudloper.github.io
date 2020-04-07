@@ -9,7 +9,7 @@ Als je gegevens op een kaart in een web applicatie toont, is het ter referentie 
 
 Maar wat moet je doen als de web applicatie - bijvoorbeeld om security redenen - geen toegang tot het internet heeft? Daar liep ik tegenaan bij het maken van een [Shiny app](https://shiny.rstudio.com/).
 
-Dan maak je een lokale kopie. Daarvoor kun je de [Mobile Atlas Creator (MOBAC)](https://mobac.sourceforge.io/) gebruiken.
+Dan maak je een lokale kopie. Daarvoor kun je [Mobile Atlas Creator (MOBAC)](https://mobac.sourceforge.io/) gebruiken.
 
 Het is eenvoudig om MOBAC te installeren en te gebruiken. In het README bestand van de applicatie is duidelijk beschreven hoe dat moet. 
 
