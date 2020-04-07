@@ -5,13 +5,13 @@ date:   2020-04-06
 categories: 
 ---
 
-Als je gegevens op een kaart in een web applicatie toont, is het ter referentie vaak handig om een topografische ondergrond toe te voegen. Hiervoor kun je bijvoorbeeld de BRT Achtergrondkaart van PDOK gebruiken. De BRT Achtergrond kaart is online te bevragen via een Web Map Tile Service (WMTS).
+Als je gegevens op een kaart in een web applicatie toont, is het ter referentie vaak handig om een topografische ondergrond toe te voegen. Hiervoor kun je bijvoorbeeld de BRT Achtergrondkaart van PDOK gebruiken. De BRT Achtergrond kaart is online te op te vragen via een Web Map Tile Service (WMTS).
 
 Maar wat moet je doen als de web applicatie - bijvoorbeeld om security redenen - geen toegang tot het internet heeft? Daar liep ik tegenaan bij het maken van een [Shiny app](https://shiny.rstudio.com/).
 
 Dan maak je een lokale kopie. Daarvoor kun je de [Mobile Atlas Creator (MOBAC)](https://mobac.sourceforge.io/) gebruiken.
 
-Het is eenvoudig om MOBAC te installeren en te gebruiken. In het README bestand is duidelijk beschreven hoe dat moet. 
+Het is eenvoudig om MOBAC te installeren en te gebruiken. In het README bestand van de applicatie is duidelijk beschreven hoe dat moet. 
 
 Belangrijk is om _Osmdroid ZIP_ als formaat te kiezen. Voor het downloaden van BRT Achtergrond tiles moet je bovendien een _custom map source_ definiëren. Dat is niet moeilijk. Maak een XML bestand met de volgende inhoud aan en plaats het in de map _mapsources_. 
 
@@ -28,9 +28,9 @@ Belangrijk is om _Osmdroid ZIP_ als formaat te kiezen. Voor het downloaden van B
 </customMapSource>
 ```
 
-Na een herstart van MOBAC is _BRT standaard_ toegevoegd als formaat. Fluitje van een cent!
+Na een herstart van MOBAC is _BRT standaard_ toegevoegd als bron. Fluitje van een cent!
 
 Waar je wel op moet letten is de _fair use policy_ van PDOK. Het is niet netjes om tienduizenden requests af te vuren op de server. Beperk daarom het geselecteerde gebied en/of de zoomniveaus.
 
-Om de BRT Achtergrondkaart te gebruiken in een Shiny app, moet je de tiles naar de map _www/map/tiles_ in de root van de Shiny projectmap verplaatsen. In [deze Github repository](https://github.com/FrieseWoudloper/demo_offline_tiles) vind je de code van mijn demo-app.
+Om de BRT Achtergrondkaart te gebruiken in een Shiny app, moet je het ZIP bestand uitpakken en de inhoud naar de map _www/map/tiles_ in de root van het Shiny project verplaatsen. In [deze Github repository](https://github.com/FrieseWoudloper/demo_offline_tiles) vind je de code van mijn demo-app.
 
