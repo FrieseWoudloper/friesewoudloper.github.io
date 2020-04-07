@@ -13,7 +13,7 @@ Dan maak je een lokale kopie. Daarvoor kun je de [Mobile Atlas Creator (MOBAC)](
 
 Het is eenvoudig om MOBAC te installeren en te gebruiken. In het README bestand van de applicatie is duidelijk beschreven hoe dat moet. 
 
-Belangrijk is om _Osmdroid ZIP_ als formaat te kiezen. Voor het downloaden van BRT Achtergrond tiles moet je bovendien een _custom map source_ definiëren. Dat is niet moeilijk. Maak een XML bestand met de volgende inhoud aan en plaats het in de map _mapsources_. 
+Belangrijk is om _Osmdroid ZIP_ als formaat te kiezen. Voor het downloaden van BRT Achtergrondkaart moet je bovendien een _custom map source_ definiëren. Dat is niet moeilijk. Maak een XML bestand met de volgende inhoud aan en plaats het in de map _mapsources_. 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
