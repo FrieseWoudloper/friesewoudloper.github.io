@@ -30,7 +30,7 @@ Belangrijk is om _Osmdroid ZIP_ als formaat te kiezen. Voor het downloaden van B
 
 Na een herstart van MOBAC is _BRT standaard_ toegevoegd als bron. Fluitje van een cent!
 
-Waar je wel op moet letten is de _fair use policy_ van PDOK. Het is niet netjes om tienduizenden requests af te vuren op de server. Beperk daarom het geselecteerde gebied en/of de zoomniveaus.
+Waar je wel op moet letten, is de _fair use policy_ van PDOK. Het is niet netjes om tienduizenden requests af te vuren op de server. Beperk daarom het geselecteerde gebied en/of de zoomniveaus.
 
 Om de BRT Achtergrondkaart te gebruiken in een Shiny app, moet je het ZIP bestand uitpakken en de inhoud naar de map _www/map/tiles_ in de root van het Shiny project verplaatsen. In [deze Github repository](https://github.com/FrieseWoudloper/demo_offline_tiles) vind je de code van mijn demo-app.
 
